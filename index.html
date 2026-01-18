@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="java.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+    
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/Indokids.png" alt="logo" width="420" height="58" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </span>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+
+        <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button>
+    </div>
+</header>
+                                
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1059">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">SPECIAL DEAL!</h1>
+            <p class="cs-text">
+                Happy Pikachu Day! Discover electrifying discounts on fun & educational kids' software and hardware!
+            </p>
+            <a href="" class="cs-button-solid">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/Pikachu.jpg">
+        <source media="(min-width: 601px)" srcset="images/Pikachu.jpg">
+        <img decoding="async" src="images/Pikachu.jpg" alt="mechanic" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                           
+<!-- ============================================ -->
+<!--                  Collection                  -->
+<!-- ============================================ -->
+
+<section id="collection-1577">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Top Categories</h2>
+        </div>
+        <div class="cs-slider-wrapper">
+            <button class="section-button left-btn" aria-label="Previous categories">
+                <img src="images/buttonleft.png" alt="Previous">
+            </button>
+            <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Bundle Deals</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/Sale.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/Sale.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/Sale.jpg"
+                                width="365" height="201" alt="t-shirt">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Apps</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/Apps.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/Apps.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/Apps.jpg" width="365"
+                                height="201" alt="purse">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Games</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/Game.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/Game.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/Game.jpg"
+                                width="365" height="201" alt="shoes">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Books</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/Books.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/Books.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/Books.jpg"
+                                width="365" height="201" alt="perfume">
+                    </picture>
+                </a>
+            </li>
+            <!-- Second set of 4 categories -->
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Hardware</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/hardware.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/hardware.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/hardware.jpg"
+                                width="365" height="201" alt="hardware">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Accessories</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/accessory.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/accessory.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/accessory.jpg"
+                                width="365" height="201" alt="accessories">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Educational</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/education.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/education.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/education.jpg"
+                                width="365" height="201" alt="educational">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <span class="cs-category">Software</span>
+                    <picture class="cs-background" aria-hidden="true">
+                        <source media="(max-width: 600px)"
+                                srcset="images/software.jpg">
+                        <source media="(min-width: 601px)"
+                                srcset="images/software.jpg">
+                        <img loading="lazy" decoding="async"
+                                src="images/software.jpg"
+                                width="365" height="201" alt="software">
+                    </picture>
+                </a>
+            </li>
+            </ul>
+            <button class="section-button right-btn" aria-label="Next categories">
+                <img src="images/buttonright.png" alt="Next">
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- next categories-->
+ 
+
+<!-- ============================================ -->
+<!--                  Collection                  -->
+<!-- ============================================ -->
+
+<!--
+    To add a 4th or 5th collection or more, copy and paste the cs-button and change it's data-filter to the next number, in this case it's 4. Do the same to the cs-listing and its data-category number. And that's it!
+-->
+
+<section id="collection-1602">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">New Collection</h2>
+            <div class="cs-button-group">
+                <button class="cs-button" data-filter="one">
+                    Featured
+                </button>
+                <button class="cs-button" data-filter="two">
+                    Popular
+                </button>
+            </div>
+        </div>
+        <div class="cs-listing-wrapper">
+            <!--Listing 1-->
+            <div class="cs-listing" data-category="one">
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)" srcset="images/Tape.jpg">
+                                <source media="(min-width: 601px)" srcset="images/Tape.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Tape.jpg"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                           
+                        </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Kid Pix 5 Steam Edition Download</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$49.99</span>
+
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img class="cs-basket"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="images/Typing.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="images/Typing.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Typing.jpg"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                          </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Mavis Beacon teaches typing v18</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$11.99</span>
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="images/Britannica.png">
+                                <source media="(min-width: 601px)"
+                                        srcset="images/Britannica.png">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Britannica.png"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                   </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Britannica Educational DVD</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$9.99</span>
+                                 <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="images/Kidzmouse.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="images/Kidzmouse.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Kidzmouse.jpg"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                            </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Kidzmouse</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$9.99</span>
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="images/Stickers.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="images/Stickers.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Stickers.jpg"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Lower and Upper Case Keyboard Sticker</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$8.95</span>
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="images/Kidzmouse.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="images/Kidzmouse.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="images/Kidzmouse.jpg"
+                                        alt="gallery" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <h3 class="cs-name">Kidzmouse v2.0</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$12.00</span>
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <span class="cs-buy">
+                                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-2231">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Who are Indo Kids Software?</h2>
+            <p class="cs-text">
+                We are your one-stop-shop for children's computer software, educational apps & computer accessories, such as headphones with microphones, keyboard stickers , and computer mice for children.
+            </p>
+            <a href="" class="cs-button-solid">Learn More</a>
+        </div>
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="Kid.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="Kid.jpg">
+                <img loading="lazy" decoding="async" src="Kid.jpg" alt="Kid" width="272" height="337">
+            </picture>
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-272">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="Indokids.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                We sell the best quality and fun products that are suitable for kids. Shop now!
+            </p>
+            <div class="cs-social">
+                <a class="cs-social-link" aria-label="visit google profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">About</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">History</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Indokids Software</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Sustainability</a>
+            </li>
+        </ul>
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">More from us</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Kid Tech News</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Celebrations</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Exclusive Offers</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link cs-address" href="">
+                123 Main Street, Jakarta
+                Jakarta Barat<br> Oak Harbor, Indonesia
+                </a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="tel:08112345">(081) 12345</a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="mailto:info@codestitch.com">info@indokidssoftware.com</a>
+            </li>
+        </ul>
+    </div>
+</footer>          
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
